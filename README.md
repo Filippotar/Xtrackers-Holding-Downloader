@@ -21,3 +21,12 @@ This project is designed to automate the process of downloading and processing t
 ## Usefulness
 
 This project is useful for investors, analysts, and financial professionals who need to regularly update and analyze the holdings of multiple ETFs. By automating the download and processing of holdings data, it saves time and reduces the potential for manual errors. The processed data can then be used for further analysis, reporting, or integration into other financial models and tools.
+
+---
+
+
+### Necessary libraries
+-   `os`
+-   `requests`
+-   `pandas`
+-    `io`
