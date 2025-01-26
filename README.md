@@ -8,7 +8,7 @@ Holdings refer to the individual assets that an ETF owns. Knowing the holdings o
 
 ## Project Overview
 
-This project is designed to automate the process of downloading and processing the holdings of a list of ETFs identified by their ISINs (International Securities Identification Numbers). The script performs the following tasks:
+This project is designed to automate the process of downloading and processing the holdings of a list of ETFs identified by their ISINs (International Securities Identification Numbers) stored in an `isin_list`. The script performs the following tasks:
 
 1. **Download Holdings Data**: For each ISIN in the provided list, the script downloads the holdings data from a specified URL.
 2. **Process Data**: The downloaded data is processed to:
@@ -30,3 +30,12 @@ This project is useful for investors, analysts, and financial professionals who 
 -   `requests`
 -   `pandas`
 -    `io`
+
+## Example Output
+| File Name         | Underlying Name          | Underlying ISIN | Country        | Currency | Asset Class | Sector                 | Asset Weight |
+|-------------------|--------------------------|-----------------|----------------|----------|-------------|------------------------|--------------|
+| IE00BJZ2DC62.csv  | MASTERCARD INC CLASS A   | US57636Q1040    | United States  | USD      | Equity      | Financials             |  0.88850498  |
+| IE00BJZ2DC62.csv  | NETFLIX INC              | US64110L1061    | United States  | USD      | Equity      | Communication Services |  0.85151677  |
+| IE00BJZ2DC62.csv  | COSTCO WHOLESALE CORP    | US22160K1051    | United States  | USD      | Equity      | Consumer Staples       |  0.84376027  |
+| IE00BJZ2DC62.csv  | WALMART INC              | US9311421039    | United States  | USD      | Equity      | Consumer Staples       |  0.83573656  |
+| IE00BJZ2DC62.csv  | HOME DEPOT INC           | US4370761029    | United States  | USD      | Equity      | Consumer Discretionary |  0.82944135  |
