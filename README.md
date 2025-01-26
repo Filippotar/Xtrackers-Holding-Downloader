@@ -1,6 +1,3 @@
-# xtrackers_holding_downloader
-
-
 # ETF Holdings Downloader
 
 ## Introduction
