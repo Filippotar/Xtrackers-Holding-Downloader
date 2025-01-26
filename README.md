@@ -16,7 +16,7 @@ This project is designed to automate the process of downloading and processing t
    - Rename columns for consistency.
    - Convert asset percentages to a more readable format.
    - Insert the file name for reference.
-3. **Save Processed Data**: The processed data is saved as CSV files with a specified separator.
+3. **Save Processed Data**: The processed data is saved as CSV files.
 
 ## Usefulness
 
